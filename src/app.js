@@ -14,7 +14,7 @@ app.use("/users", usersRouter);
 
 // 404 handler
 app.use((req, res) => {
-  res.status(404).json({ error: "End point Not Found" });
+  res.status(404).json({ error: "End point Not Found!" });
 });
 
 // Error handler
